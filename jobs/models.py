@@ -13,4 +13,5 @@ class Job(models.Model):
 	image = models.FileField(upload_to ='media' )
 
 	def __str__(self):
-		return self.title
+		return self.skills
+		
