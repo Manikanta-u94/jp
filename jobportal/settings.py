@@ -25,7 +25,7 @@ SECRET_KEY = '239^9teu)nc_#r0rmr$@f19$n7sx5_^krfopqhh!k=o66yiu+='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,9 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'jobs',
-    'users',
-    'django_countries',
-    
+    'users',    
     'crispy_forms',
 ]
 
